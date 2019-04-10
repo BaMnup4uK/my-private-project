@@ -1,0 +1,29 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav__links {
+  display: flex;
+  list-style: none;
+}
+
+.main-nav__link {
+  margin-right: 10px;
+}
+
+.main-nav__link:last-child {
+  margin-right: 0;
+}
+
+.main-nav__cart {
+  display: flex;
+  align-items: center;
+}
+
+.main-nav__cart svg {
+  margin-right: 8px;
+  height: 14px;
+  width: 14px;
+  fill: red;
+}
