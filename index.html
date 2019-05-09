@@ -2,37 +2,34 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Nerds</title>
     <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="main-header">
-      <nav class="main-nav">
-        <a href="#" class="logo">
-          <img src="#" alt="Логотип «Nerds»" />
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="nav__logo">
+          <img src="/images/nerds-logo.svg" alt="Логотип «Nerds»" />
         </a>
-        <ul class="main-nav__links">
-          <li class="main-nav__link">
-            <a href="#">Студия</a>
+
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#">Студия</a>
           </li>
-          <li class="main-nav__link">
-            <a href="#">Клиенты</a>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Клиенты</a>
           </li>
-          <li class="main-nav__link">
-            <a href="#">Магазин</a>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Магазин</a>
           </li>
-          <li class="main-nav__link">
-            <a href="#">Контакты</a>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Контакты</a>
           </li>
-          <!-- TODO: Использую пока что заглушки для ссылок, т.к. не выяснял пока где они есть -->
         </ul>
 
-        <a class="main-nav__cart" href="#">
-          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="50" cy="50" r="50" />
-          </svg>
+        <a class="nav__link" href="#">
+          <img class="nav__link-icon" src="/images/cart-icon.svg" alt="Корзина">
           Корзина
         </a>
       </nav>
